@@ -1,0 +1,39 @@
+.Ranking {
+    margin-top: -20px;
+    margin-bottom: 100px;
+    margin-left: -30px;
+}
+
+
+.Ranking p:last-child {
+    margin-top: -10px;
+}
+
+.Ranking p {
+    display: block;
+    width: 400px;
+    margin-left: 170px;
+    color: #fff;
+}
+
+.Ranking p span {
+    display: inline-block;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: orange;
+    font-size: 2em;
+    font-family: serif;
+    letter-spacing: 5px;
+}
+
+#entries {
+    /* border-radius: 50; */
+    /* display: inline-block; */
+    width: 100px;
+    margin-left: 250px;
+    text-align: center;
+    border: 1px solid #fff;
+}

@@ -1,0 +1,30 @@
+
+nav {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    margin: 30px 50px 0 auto;
+    font-size: 1.0em;
+}
+
+a {
+    display: inline-block;
+    /* margin-right:2px; */
+    display: inline-block;
+    /* margin-left: px; */
+    font-size: 0.8em;
+    width: 100px;
+    color: #fff;
+    padding: 10px;
+    /* padding: 10px 20px; */
+    border: solid 1px #fff;
+    transition: color 0.2s, background-color 0.2s;
+    border-radius: 5px;
+}
+
+a:hover,
+a:active {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.904);
+    cursor: pointer;
+}

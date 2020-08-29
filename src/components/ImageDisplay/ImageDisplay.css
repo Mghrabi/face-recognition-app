@@ -1,0 +1,17 @@
+
+#BORDER {
+    position: absolute;
+    border: 3px solid #038fb9;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+    /* display: flex; */
+    
+    /* background: blue; */
+}
+
+#image_holder {
+    width: 350px;
+    height: auto;
+    display: none;
+}

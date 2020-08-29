@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size-adjust: auto;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  /* background: linear-gradient(to right,#358ba5,rgb(23, 44, 49)) */
+  /* background: linear-gradient(to right,#2994b4,rgb(23, 44, 49)) */
+  background: linear-gradient(to right,#038fb9,rgb(23, 44, 49))
+
+
+  /* background: linear-gradient(to right, red , yellow); */
+}
+
+
+
+@media screen and (max-width:500px){
+
+  body {
+      font-size: 15px;
+  }
+
+  div.Button {
+    
+    margin-left: 30px;
+    /* font-size: 20px; */
+  }
+
+  a.Button  {
+    display: inline-block;
+    font-size: 15px;
+    padding: 7px 0px;
+  }
+
+  div.Button {
+    padding-left: 0;
+    margin-left: 20px;
+    /* width: 100px; */
+  }
+
+  #face {
+    font-size: 65px;
+    margin-left: 45px;
+  }
+
+  #div {
+    margin-left: 40px;
+  }
+
+  .Ranking p {
+    width: 200px;
+  }
+  
+}

@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+#travel_button {
+      margin-top: -5px;
+      border: 0;
+      text-decoration: none;
+      font-size: 1em;
+}
+
+#travel_button:hover,
+#travel_button:active {
+    border: 0;
+    background: 0;
+    color: #fff;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin:150px 20px 0 auto;
+  }
+
+
+.InputUrl {
+    /* background: linear-gradient(to right,#038fb9,rgb(23, 44, 49)); */
+    /* border: 1px solid red; */
+    width: 70%;   
+    margin: -30px auto 40px auto;
+  }
+
+.InputUrl p {
+    display: inline-block;
+    padding: 0;
+    margin-top: 50px;
+    width: 50%;
+    line-height: 40px;
+    letter-spacing: 4px;
+}
+
+
+.InputUrl div {
+    margin: 30px auto 0 auto;
+    /* border: 3px solid black; */
+    height: 30px;
+    width: 70%;
+   
+}
+
+.InputUrl div input {
+  border-radius: 20px;
+  margin-right: 5px;
+  outline: none;
+}
+
+.InputUrl div button {
+  background-color:rgb(255, 166, 0);
+  transition: transform 0.2s;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.InputUrl div button:hover,
+.InputUrl div button:active {
+  transform: scale(1.09);
+}

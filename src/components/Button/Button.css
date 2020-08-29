@@ -1,0 +1,30 @@
+div.Button {
+    width: 100%;
+    padding: 0;
+    /* margin: 0; */
+    /* background: #fff; */
+    margin-top: 160px;
+    /* text-align: center; */
+    /* box-shadow: 2px 2px 2px #000; */
+}
+
+
+
+
+.Button a{
+    margin: 0 65px 0 0;
+    background-color: #fff;
+    color: #000;
+    width: 200px;
+    box-shadow: 1px 2px 6px #000;
+    transition: transform 0.2s;
+    
+}
+
+a.Button:hover,
+a.Button:active {
+    background-color: rgb(189, 188, 188);
+    transform: scale(1.1);
+}
+
+
