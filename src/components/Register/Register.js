@@ -37,10 +37,11 @@ class Register extends React.Component {
 
             .then(user => user.json())
             .then(user => {
-                console.log(user);
+                alert(user)
                 
                 if (user.id){
                 this.props.gettingUserInfo(user);
+                alert('signup successful')
                 this.props.routing('active');
                 }
             }) 

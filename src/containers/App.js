@@ -146,6 +146,9 @@ class App extends Component {
   
   render(){
     
+    const  {situation, user, imageUrl, box} = this.state;
+    console.log(this.props);
+    
     return (
       <div className="App">
         <Particles className='particles' 
@@ -174,17 +177,17 @@ class App extends Component {
         :
         (this.state.situation === 'sign in'?
         <div>
-          <Navigation situation={this.state.situation} routing={this.routing}/>
+          <Navigation situation={situation} routing={this.routing}/>
           <SignIn routing={this.routing} gettingUserInfo={this.gettingUserInfo}/>
         </div>
         :
         (this.state.situation === 'active'?
         <div>
-          <Navigation situation={this.state.situation} routing={this.routing} forHome={this.forHome}/>
+          <Navigation situation={situation} routing={this.routing} forHome={this.forHome}/>
           <Logo/>
-          <Rank entries={this.state.user.entries} name={this.state.user.name}/>
+          <Rank entries={user.entries} name={user.name}/>
           <InputUrl onInputChange={this.onInputChange} onSubmit={this.onSubmit}/>
-          <ImageDisplay image={this.state.imageUrl} box={this.state.box}/>
+          <ImageDisplay image={this.state.imageUrl} box={box}/>
         </div>
         :
         <div>

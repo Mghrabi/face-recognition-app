@@ -118,11 +118,14 @@ app.post('/register', (req, res) => {
     })
     
     
-            .catch(err => res.status(400).json('error in transaction'));
+            .catch(err => res.status(400).json('email is already exist'));
     }
 
     else {
-        res.json('please enter an email')
+        if(!password) res.json('please enter a password');
+        else{
+            res.json('please enter an email')
+        }
     }
     
 

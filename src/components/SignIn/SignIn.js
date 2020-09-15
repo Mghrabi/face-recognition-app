@@ -31,14 +31,15 @@ class SignIn extends React.Component{
             })
             .then(data => data.json())
             .then(user => {
-                console.log(user);
+                alert(user)
                 if (user.id){
                 this.props.gettingUserInfo(user);
+                alert('signin successful')
                 this.props.routing('active');
                 }
             })
             .catch(error => {
-                console.log('there is a problem in signing in the user')
+                alert(error);
             }) 
     }
 //C:\Program Files\PostgreSQL\12
