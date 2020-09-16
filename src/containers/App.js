@@ -194,7 +194,6 @@ class App extends Component {
           <Navigation situation={this.state.situation} routing={this.routing}/>
           <Register routing={this.routing} gettingUserInfo={this.gettingUserInfo}/>
         </div>
-        
         )
         )
         }

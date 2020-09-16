@@ -6,7 +6,7 @@ const InputUrl = ({onInputChange, onSubmit}) => {
     return (
         <div className='InputUrl'>
             <p style={{color:'#fff',fontSize:'1.5em'}}>
-            <span style={{color:'orange',letterSpacing:'15px',marginLeft:'-40px'}}>DETECTING</span> faces in your pictures, GIVE IT A TRY!
+            <span style={{color:'orange',letterSpacing:'15px',marginLeft:'-40px'}}>DETECTING</span> faces in your pictures, enter a the image URL and GIVE IT A TRY!
             </p>
             <div  className='center'>
                 <input id='image_input' style={{width:'70%', color:'black'}} type='text' onChange={onInputChange}/>
