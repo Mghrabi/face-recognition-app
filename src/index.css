@@ -13,6 +13,100 @@ body {
 }
 
 
+@media screen and (max-width:1050px) and (min-width:750px){
+  #face {
+    margin-top: 250px;
+    margin-left: 40px;
+    /* margin-bottom: 300px; */
+    font-size: 170px;
+  }
+
+  .Button {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Button.Button {
+    width: 300px;
+    font-size: 30px;
+    margin-top: 150px;
+  }
+
+  #div {
+    font-size: 25px;
+  }
+
+  .main_box{
+    margin-top: 100px;
+  }
+
+  .form_box {
+    font-size: 30px;
+    width: 400px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form_box label {
+    font-size: 35px;
+  }
+
+  .form_box legend {
+    font-size: 45px;
+    margin-bottom: 100px;
+  }
+
+  #submit {
+    font-size: 20px;
+  }
+
+
+  .InputUrl {
+    font-size: 20px;
+    height: 100px;
+  }
+  .InputUrl p {
+    font-size: 2em;
+    display: block;
+    height: 100px;
+  }
+
+  nav a {
+    width: 140px;
+    margin-right: 200px;
+    font-size: 20px;
+  }
+
+  #detecting-text {
+    /* margin-top: 200px; */
+    width: auto;
+    display: block;
+    margin-top: 150px;
+    font-size: 50px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+  }
+
+  #input-text {
+    /* font-size: 200px; */
+  }
+
+  .Ranking p{
+    font-size: 20px;
+  }
+
+  .tofix {
+    height: 100px;
+    width: 100%;
+    
+  }
+
+
+}
+
+
 
 @media screen and (max-width:400px){
 
@@ -132,6 +226,15 @@ div.Button {
 
 }
 
-/* @media secreen and (width:375){
- 
-} */
+@media screen and (width:360px){
+    #face {
+      /* display: flex; */
+      /* justify-content: center; */
+      font-size: 45px;
+      margin-left: auto;
+      /* margin-right: auto; */
+      margin-right: -100px;
+    }
+}
+
+/* @media screen and (width:) */

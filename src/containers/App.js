@@ -13,7 +13,6 @@ import Particles from 'react-particles-js';
 import Clarifai from 'clarifai';
 import 'tachyons';
 import Typewriter from 'typewriter-effect';
- 
 
 
 

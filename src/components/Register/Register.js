@@ -69,7 +69,7 @@ class Register extends React.Component {
                         </div>
                         </fieldset>
                         <div className="">
-                        <input onClick={this.onSignup} className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" type="submit" value="Sign Up" />
+                        <input onClick={this.onSignup} className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" type="submit" id='submit' value="Sign Up" />
                         </div>
                         <div className="lh-copy mt3">
                         {/* <a href="#0" className="f6 link dim black db">Sign up</a> */}

@@ -8,7 +8,7 @@ const Rank = ({entries, name}) => {
     return (
         <div className='Ranking'>
             <p style={{padding:'0',width:'50px'}}><span>{Name}</span></p>
-            <p id='entries' style={{fontSize:'1.5em'}}>score:{entries}</p>
+            <p id='entries' style={{fontSize:'1.5em'}}>Entries:{entries}</p>
         </div>
     )
 }
